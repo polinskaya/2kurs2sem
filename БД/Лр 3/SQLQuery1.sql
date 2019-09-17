@@ -1,0 +1,2 @@
+USE master;
+CREATE database BUGAENKO_UNIVER;
