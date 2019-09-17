@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7758ac9-154d-4150-986c-29c373035219" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Лаб4/App.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <marker date="1551085575239" expanded="false" signature="6:193" ph="..." />
+                <marker date="1551085575239" expanded="true" signature="208:1113" ph="{...}" />
+                <marker date="1551085575239" expanded="true" signature="215:290" ph="/// Логика взаимодействия для App.xaml ... " />
+                <marker date="1551085575239" expanded="true" signature="333:1111" ph="{...}" />
+                <marker date="1551085575239" expanded="true" signature="470:570" ph="{...}" />
+                <marker date="1551085575239" expanded="true" signature="496:560" ph="{...}" />
+                <marker date="1551085575239" expanded="true" signature="613:880" ph="{...}" />
+                <marker date="1551085575239" expanded="true" signature="639:746" ph="{...}" />
+                <marker date="1551085575239" expanded="true" signature="762:870" ph="{...}" />
+                <marker date="1551085575239" expanded="true" signature="901:1105" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Лаб4/Properties/Resources.Designer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <marker date="1550423563708" expanded="true" signature="0:421" ph="/* ------------------------------------------------------------------------------ ... */" />
+                <marker date="1550423563708" expanded="true" signature="448:2861" ph="{...}" />
+                <marker date="1550423563708" expanded="true" signature="457:569" ph="///   Класс ресурсов со строгим типом для поиска локализованных строк и пр. ... " />
+                <marker date="1550423563708" expanded="true" signature="574:873" ph="/* Этот класс был автоматически создан при помощи StronglyTypedResourceBuilder ... */" />
+                <marker date="1550423563708" expanded="true" signature="1168:2859" ph="{...}" />
+                <marker date="1550423563708" expanded="true" signature="1499:1519" ph="{...}" />
+                <marker date="1550423563708" expanded="true" signature="1529:1657" ph="///   Возврат кэшированного экземпляра ResourceManager, используемого этим классом. ... " />
+                <marker date="1550423563708" expanded="true" signature="1864:2254" ph="{...}" />
+                <marker date="1550423563708" expanded="true" signature="1890:2244" ph="{...}" />
+                <marker date="1550423563708" expanded="true" signature="1947:2194" ph="{...}" />
+                <marker date="1550423563708" expanded="true" signature="2264:2465" ph="///   Переопределяет свойство CurrentUICulture текущего потока для всех ... " />
+                <marker date="1550423563708" expanded="true" signature="2664:2853" ph="{...}" />
+                <marker date="1550423563708" expanded="true" signature="2690:2758" ph="{...}" />
+                <marker date="1550423563708" expanded="true" signature="2774:2843" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Лаб4/Dictionary_eng.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+              <folding>
+                <marker date="1552489623772" expanded="true" signature="0:2232" ph="&lt;&lt;HeaderedItemsControl x:Key=&quot;File&quot;&gt;File&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Edit&quot;&gt;Edit&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Style&quot;&gt;Style&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Color&quot;&gt;Color&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;New&quot;&gt;New&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Open&quot;&gt;Open&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Save&quot;&gt;Save&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Copy&quot;&gt;Copy&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Paste&quot;&gt;Paste&lt;/HeaderedItemsControl&gt; &lt;ContentControl x:Key=&quot;Symbols&quot;&gt;Symbols&lt;/ContentControl&gt; &lt;ContentControl x:Key=&quot;Words&quot;&gt;Words&lt;/ContentControl&gt; &lt;Style TargetType=&quot;ToggleButton&quot;&gt;&#10;        &lt;Setter Property=&quot;Background&quot; Value=&quot;Black&quot; /&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##FF47A1FB&quot; /&gt;&#10;    &lt;/Style&gt; &lt;Style TargetType=&quot;MenuItem&quot;&gt;&#10;        &lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt;&#10;        &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;&#10;    &lt;/Style&gt; &lt;Style TargetType=&quot;Label&quot;&gt;&#10;        &lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt;&#10;        &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;&#10;    &lt;/Style&gt; &lt;Style TargetType=&quot;RichTextBox&quot;&gt;&#10;        &lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Background&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt;&#10;        &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Background&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;&#10;    &lt;/Style&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="944:1160" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;Black&quot; /&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt; &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##FF47A1FB&quot; /&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="1165:1510" ph="&lt;&lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt; &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="1203:1298" ph="&lt;&lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="1307:1497" ph="&lt;&lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="1336:1471" ph="&lt;&lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="1515:1857" ph="&lt;&lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt; &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="1550:1645" ph="&lt;&lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="1654:1844" ph="&lt;&lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="1683:1818" ph="&lt;&lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="1862:2210" ph="&lt;&lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Background&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt; &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Background&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="1903:1998" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;Coral&quot; /&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="2007:2197" ph="&lt;&lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Background&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;.../&gt;" />
+                <marker date="1552489623772" expanded="true" signature="2036:2171" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##FF5F5FFF&quot; /&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Лаб4/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Лаб4/Dictionary_eng.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Лаб4/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Лаб4" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Лаб4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Лаб4" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Лаб4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Лаб4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Лаб4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Лаб4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Resources.resx" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Лаб4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Лаб4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Лаб4/bin/Debug/Лаб4.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Лаб4/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Лаб4/Лаб4.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7758ac9-154d-4150-986c-29c373035219" name="Default Changelist" comment="" />
+      <created>1552922687311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552922687311</updated>
+      <workItem from="1552922692154" duration="2508000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2508000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="XAML Preview" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Build" weight="0.3285968" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Лаб4/Dictionary_eng.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding>
+            <marker date="1552489623772" expanded="true" signature="0:2232" ph="&lt;&lt;HeaderedItemsControl x:Key=&quot;File&quot;&gt;File&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Edit&quot;&gt;Edit&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Style&quot;&gt;Style&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Color&quot;&gt;Color&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;New&quot;&gt;New&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Open&quot;&gt;Open&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Save&quot;&gt;Save&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Copy&quot;&gt;Copy&lt;/HeaderedItemsControl&gt; &lt;HeaderedItemsControl x:Key=&quot;Paste&quot;&gt;Paste&lt;/HeaderedItemsControl&gt; &lt;ContentControl x:Key=&quot;Symbols&quot;&gt;Symbols&lt;/ContentControl&gt; &lt;ContentControl x:Key=&quot;Words&quot;&gt;Words&lt;/ContentControl&gt; &lt;Style TargetType=&quot;ToggleButton&quot;&gt;&#10;        &lt;Setter Property=&quot;Background&quot; Value=&quot;Black&quot; /&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##FF47A1FB&quot; /&gt;&#10;    &lt;/Style&gt; &lt;Style TargetType=&quot;MenuItem&quot;&gt;&#10;        &lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt;&#10;        &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;&#10;    &lt;/Style&gt; &lt;Style TargetType=&quot;Label&quot;&gt;&#10;        &lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt;&#10;        &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;&#10;    &lt;/Style&gt; &lt;Style TargetType=&quot;RichTextBox&quot;&gt;&#10;        &lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Background&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt;&#10;        &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Background&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;&#10;    &lt;/Style&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="944:1160" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;Black&quot; /&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt; &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##FF47A1FB&quot; /&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="1165:1510" ph="&lt;&lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt; &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="1203:1298" ph="&lt;&lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="1307:1497" ph="&lt;&lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="1336:1471" ph="&lt;&lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="1515:1857" ph="&lt;&lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt; &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="1550:1645" ph="&lt;&lt;Setter Property=&quot;Foreground&quot; Value=&quot;Coral&quot; /&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="1654:1844" ph="&lt;&lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="1683:1818" ph="&lt;&lt;Setter Property=&quot;Foreground&quot; Value=&quot;##FF5F5FFF&quot; /&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="1862:2210" ph="&lt;&lt;Style.Setters&gt;&#10;        &lt;Setter Property=&quot;Background&quot; Value=&quot;Coral&quot; /&gt;&#10;        &lt;/Style.Setters&gt; &lt;Style.Triggers&gt;&#10;            &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Background&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;&#10;        &lt;/Style.Triggers&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="1903:1998" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;Coral&quot; /&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="2007:2197" ph="&lt;&lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                &lt;Setter Property=&quot;Background&quot; Value=&quot;##FF5F5FFF&quot; /&gt;&#10;            &lt;/Trigger&gt;.../&gt;" />
+            <marker date="1552489623772" expanded="true" signature="2036:2171" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##FF5F5FFF&quot; /&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Лаб4/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <marker date="1551085575239" expanded="false" signature="6:193" ph="..." />
+            <marker date="1551085575239" expanded="true" signature="208:1113" ph="{...}" />
+            <marker date="1551085575239" expanded="true" signature="215:290" ph="/// Логика взаимодействия для App.xaml ... " />
+            <marker date="1551085575239" expanded="true" signature="333:1111" ph="{...}" />
+            <marker date="1551085575239" expanded="true" signature="470:570" ph="{...}" />
+            <marker date="1551085575239" expanded="true" signature="496:560" ph="{...}" />
+            <marker date="1551085575239" expanded="true" signature="613:880" ph="{...}" />
+            <marker date="1551085575239" expanded="true" signature="639:746" ph="{...}" />
+            <marker date="1551085575239" expanded="true" signature="762:870" ph="{...}" />
+            <marker date="1551085575239" expanded="true" signature="901:1105" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Лаб4/Properties/Resources.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <marker date="1550423563708" expanded="true" signature="0:421" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1550423563708" expanded="true" signature="448:2861" ph="{...}" />
+            <marker date="1550423563708" expanded="true" signature="457:569" ph="///   Класс ресурсов со строгим типом для поиска локализованных строк и пр. ... " />
+            <marker date="1550423563708" expanded="true" signature="574:873" ph="/* Этот класс был автоматически создан при помощи StronglyTypedResourceBuilder ... */" />
+            <marker date="1550423563708" expanded="true" signature="1168:2859" ph="{...}" />
+            <marker date="1550423563708" expanded="true" signature="1499:1519" ph="{...}" />
+            <marker date="1550423563708" expanded="true" signature="1529:1657" ph="///   Возврат кэшированного экземпляра ResourceManager, используемого этим классом. ... " />
+            <marker date="1550423563708" expanded="true" signature="1864:2254" ph="{...}" />
+            <marker date="1550423563708" expanded="true" signature="1890:2244" ph="{...}" />
+            <marker date="1550423563708" expanded="true" signature="1947:2194" ph="{...}" />
+            <marker date="1550423563708" expanded="true" signature="2264:2465" ph="///   Переопределяет свойство CurrentUICulture текущего потока для всех ... " />
+            <marker date="1550423563708" expanded="true" signature="2664:2853" ph="{...}" />
+            <marker date="1550423563708" expanded="true" signature="2690:2758" ph="{...}" />
+            <marker date="1550423563708" expanded="true" signature="2774:2843" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

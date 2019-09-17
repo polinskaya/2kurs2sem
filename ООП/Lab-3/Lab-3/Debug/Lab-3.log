@@ -1,0 +1,12 @@
+﻿  main.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+d:\2семестр\lab-3\lab-3\cplot2d.h(147): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\2семестр\lab-3\lab-3\cmainwnd.h(161): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\2семестр\lab-3\lab-3\cmainwnd.h(184): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\2семестр\lab-3\lab-3\cmainwnd.h(207): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\2семестр\lab-3\lab-3\cmainwnd.h(230): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\2семестр\lab-3\lab-3\cmainwnd.h(258): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\2семестр\lab-3\lab-3\cmainwnd.h(277): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\2семестр\lab-3\lab-3\cmainwnd.h(296): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\2семестр\lab-3\lab-3\cmainwnd.h(315): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  Lab-3.vcxproj -> D:\2семестр\Lab-3\Debug\Lab-3.exe

@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:lab3">
+    <Style TargetType="ToggleButton">
+        <Style.Setters>
+            <Setter Property="Background" Value="White" />
+            <Setter Property="Foreground" Value="#C0C0C0" />
+            <Setter Property="BorderBrush" Value="Black" />
+        </Style.Setters>
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="MouseDoubleClick">
+                <EventTrigger.Actions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="FontSize" Duration="0:0:01" To="25" AutoReverse="True" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger.Actions>
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="MenuItem">
+        <Setter Property="Foreground" Value="#C0C0C0" />
+    </Style>
+    <Style TargetType="Label">
+        <Setter Property="Foreground" Value="#C0C0C0" />
+    </Style>
+    <Style TargetType="RichTextBox">
+        <Style.Setters>
+            <Setter Property="Background" Value="#C0C0C0" />
+        </Style.Setters>
+        <Style.Triggers>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsMouseOver" Value="True" />
+                    <Condition Property="IsKeyboardFocused" Value="True" />
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="Background" Value="White" />
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

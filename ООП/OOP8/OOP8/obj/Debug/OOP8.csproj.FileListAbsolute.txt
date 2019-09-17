@@ -1,0 +1,7 @@
+D:\2семестр\ооп\OOP8\OOP8\bin\Debug\OOP8.exe.config
+D:\2семестр\ооп\OOP8\OOP8\bin\Debug\OOP8.exe
+D:\2семестр\ооп\OOP8\OOP8\bin\Debug\OOP8.pdb
+D:\2семестр\ооп\OOP8\OOP8\obj\Debug\OOP8.csproj.CoreCompileInputs.cache
+D:\2семестр\ооп\OOP8\OOP8\obj\Debug\OOP8.exe
+D:\2семестр\ооп\OOP8\OOP8\obj\Debug\OOP8.pdb
+D:\2семестр\ООП\OOP8\OOP8\obj\Debug\OOP8.csprojAssemblyReference.cache

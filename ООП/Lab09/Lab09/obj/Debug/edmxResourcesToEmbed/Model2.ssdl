@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Met_MyBaseModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ПОКУПКИ">
+    <Key>
+      <PropertyRef Name="Номер" />
+    </Key>
+    <Property Name="Номер" Type="int" Nullable="false" />
+    <Property Name="Название_товара" Type="nvarchar" MaxLength="10" />
+    <Property Name="Количество_купленных_товаров" Type="int" />
+    <Property Name="Дата_покупки" Type="date" />
+    <Property Name="Покупатель" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="ТОВАР">
+    <Key>
+      <PropertyRef Name="Название" />
+    </Key>
+    <Property Name="Название" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Описание" Type="nvarchar" MaxLength="50" />
+    <Property Name="Цена" Type="real" />
+  </EntityType>
+  <EntityType Name="ФИРМА">
+    <Key>
+      <PropertyRef Name="Название_отдела" />
+    </Key>
+    <Property Name="Название_отдела" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Количество_сотрудников" Type="int" />
+    <Property Name="Предельная_норма_расхода" Type="real" />
+  </EntityType>
+  <Association Name="FK_ПОКУПКИ_ТОВАР">
+    <End Role="ТОВАР" Type="Self.ТОВАР" Multiplicity="0..1" />
+    <End Role="ПОКУПКИ" Type="Self.ПОКУПКИ" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ТОВАР">
+        <PropertyRef Name="Название" />
+      </Principal>
+      <Dependent Role="ПОКУПКИ">
+        <PropertyRef Name="Название_товара" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ПОКУПКИ_ФИРМА">
+    <End Role="ФИРМА" Type="Self.ФИРМА" Multiplicity="0..1" />
+    <End Role="ПОКУПКИ" Type="Self.ПОКУПКИ" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ФИРМА">
+        <PropertyRef Name="Название_отдела" />
+      </Principal>
+      <Dependent Role="ПОКУПКИ">
+        <PropertyRef Name="Покупатель" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище Met_MyBaseModelContainer">
+    <EntitySet Name="ПОКУПКИ" EntityType="Self.ПОКУПКИ" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ТОВАР" EntityType="Self.ТОВАР" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ФИРМА" EntityType="Self.ФИРМА" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ПОКУПКИ_ТОВАР" Association="Self.FK_ПОКУПКИ_ТОВАР">
+      <End Role="ТОВАР" EntitySet="ТОВАР" />
+      <End Role="ПОКУПКИ" EntitySet="ПОКУПКИ" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ПОКУПКИ_ФИРМА" Association="Self.FK_ПОКУПКИ_ФИРМА">
+      <End Role="ФИРМА" EntitySet="ФИРМА" />
+      <End Role="ПОКУПКИ" EntitySet="ПОКУПКИ" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

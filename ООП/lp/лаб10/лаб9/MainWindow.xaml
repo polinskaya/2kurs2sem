@@ -1,0 +1,190 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:лаб9"
+        xmlns:Custom="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon"
+        x:Class="лаб9.MainWindow"
+        xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
+        xmlns:dockablz="http://dragablz.net/winfx/xaml/dockablz"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        mc:Ignorable="d"
+        FontSize="16"
+        Title="MainWindow" Height="652" Width="946" >
+    <Window.Resources>
+        <ControlTemplate TargetType="Button" x:Key="buttontemplate">
+            <Border CornerRadius="10" BorderBrush="CadetBlue" BorderThickness="1.5"
+                    Background="#FFBBEADB" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <ContentControl Margin="{TemplateBinding Margin}" 
+                                HorizontalAlignment="{TemplateBinding HorizontalAlignment}" 
+                                VerticalAlignment="{TemplateBinding VerticalAlignment}" 
+                                Content="{TemplateBinding Content}"/>
+            </Border>
+        </ControlTemplate>
+        <Style x:Key="MenuItemStyle" >
+            <Setter Property="Control.BorderBrush" Value="#FF80A8D1"/>
+            <Setter Property="Control.Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="45"
+                              Direction="40"
+                              Color="#FF872E2E"
+                              RenderingBias="Performance"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="MultiTriggerStyle">
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="Control.IsFocused" Value="True" />
+                        <Condition Property="Control.IsMouseOver" Value="True" />
+                    </MultiTrigger.Conditions>
+                    <MultiTrigger.Setters>
+                        <Setter Property="Control.FontSize" Value="15" />
+                    </MultiTrigger.Setters>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="DataTriggersStyle" TargetType="TextBlock">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ElementName=eng, Path=IsChecked}" Value="true">
+                    <Setter Property="Text" Value="English" />
+                </DataTrigger>
+                <DataTrigger Binding="{Binding ElementName=rus, Path=IsChecked}" Value="true">
+                    <Setter Property="Text" Value="Русский" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="EventTriggerStyle" TargetType="Button">
+            <Style.Setters>
+                <Setter Property="Height" Value="24"/>
+            </Style.Setters>
+
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="Click">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="Width" Duration="0:0:1" To="-110" AutoReverse="True" />
+                                <DoubleAnimation Storyboard.TargetProperty="Height" Duration="0:0:1" To="-80" AutoReverse="True" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Menu x:Name="menu" IsMainMenu="True" VerticalAlignment="Top" HorizontalAlignment="Stretch" >
+            <Menu.Resources>
+                <Style TargetType="MenuItem">
+                    <Setter Property="Height" Value="50"></Setter>
+                    <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+                </Style>
+                <Style TargetType="ToggleButton">
+                    <Setter Property="Height" Value="25"/>
+                    <Setter Property="Width" Value="50"/>
+                    <Setter Property="VerticalAlignment" Value="Top"/>
+                    <Setter Property="Padding" Value="0"/>
+                </Style>
+            </Menu.Resources>
+            <MenuItem Header="{DynamicResource File}" Style="{StaticResource MenuItemStyle}" x:Name="File">
+                <MenuItem Header="{DynamicResource New file}"  x:Name="menuitem_newfile" Command="New" >
+                    <MenuItem.CommandBindings>
+                        <CommandBinding Command="New" Executed="menuitem_newfile_Click"  />
+                    </MenuItem.CommandBindings>
+                </MenuItem>
+                <MenuItem Header="{DynamicResource Open}" x:Name="menuitem_openfile" Command="Open">
+                    <MenuItem.CommandBindings>
+                        <CommandBinding Command="Open" Executed="menuitem_open_Click"/>
+                    </MenuItem.CommandBindings>
+                </MenuItem>
+                <MenuItem Header="{DynamicResource Save}" x:Name="menuitem_save" Command="Save">
+                    <MenuItem.CommandBindings>
+                        <CommandBinding Command="Save" Executed="save" CanExecute="cansave" />
+                    </MenuItem.CommandBindings>
+                </MenuItem>
+
+                <MenuItem Header="Последние" x:Name="menuitem_last" >
+                    <ListBox Name="combobox_last_file" SelectionChanged="combobox_last_file_SelectionChanged"/>
+                </MenuItem>
+
+            </MenuItem>
+            <MenuItem Header="{DynamicResource Edit}" x:Name="Edit" >
+
+                <MenuItem Header="{DynamicResource ResourceKey=Undo}"
+                            Command="Undo" CommandTarget="{Binding Path=SelectedRichTextBox}"/>
+                <MenuItem Header="{DynamicResource ResourceKey=Redo}"
+                            Command="Redo" CommandTarget="{Binding Path=SelectedRichTextBox}"/>
+
+                <MenuItem Header="{DynamicResource Copy}" x:Name="menuitem_copy"
+                          Command="Copy"  CommandTarget="{Binding Path=getCurrentRichTextBox}"/>
+
+                <MenuItem Header="{DynamicResource Paste}" x:Name="menuitem_paste" 
+                          Command="Paste" CommandTarget="{Binding Path=getCurrentRichTextBox}"/>
+            </MenuItem>
+            <MenuItem Header="{DynamicResource Setting}" x:Name="Setting"  >
+                <MenuItem Header="{DynamicResource Language}" x:Name="Language">
+                    <MenuItem Header="English" x:Name="eng" IsCheckable="True" Checked="eng_Checked"/>
+                    <MenuItem Header="Русский" x:Name="rus" IsCheckable="True" Checked="rus_Checked"/>
+                </MenuItem>
+
+                <MenuItem Header="{DynamicResource Style}" x:Name="Style">
+                    <MenuItem Header="{DynamicResource Dark}" x:Name="darkstyle" IsCheckable="True" Checked="darkstyle_Checked"/>
+                    <MenuItem Header="{DynamicResource Light}" x:Name="lightstyle" IsCheckable="True" Checked="lightstyle_Checked"/>
+
+                </MenuItem>
+
+            </MenuItem>
+            <ComboBox x:Name="comboBox_fontstyle" Width="150" ItemsSource="{Binding Source={x:Static Fonts.SystemFontFamilies}}" SelectionChanged="comboBox_fontstyle_SelectionChanged"/>
+            <Slider x:Name="slider_fontsize" Minimum="8" Maximum="72"  TickFrequency="2"  Width="98.933" Height="20" ValueChanged="slider_fontsize_ValueChanged" />
+            <TextBlock x:Name="label" Style="{DynamicResource TextBlockStyle}" Text="{Binding ElementName=slider_fontsize,Path=Value, StringFormat=N0 }" />
+
+            <StackPanel  Orientation="Horizontal" VerticalAlignment="Stretch"   HorizontalAlignment="Left">
+                
+                <ToggleButton Name="togglebutton_boldfont" Content="B" FontWeight="Bold" 
+                              Command="EditingCommands.ToggleBold" 
+                              CommandTarget="{Binding Path=getCurrentRichTextBox}"/>
+
+                <ToggleButton  Name="togglebutton_italicfont" Content="I"  FontStyle="Italic" Command="EditingCommands.ToggleItalic" 
+                              CommandTarget="{Binding Path=getCurrentRichTextBox}"/>
+                <ToggleButton  Name="togglebutton_underlinefont" Command="EditingCommands.ToggleUnderline" 
+                              CommandTarget="{Binding Path=getCurrentRichTextBox}">
+                    <TextBlock Text="U" TextDecorations="Underline"/>
+                </ToggleButton>
+                <Separator/>
+                <Button x:Name="ColorButton" Width="30" Click="ColorCheng" Height="20" Background="Black" />
+
+            </StackPanel>
+        </Menu>
+        <Grid Margin="0,34,0,46">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition Width="0*"/>
+            </Grid.ColumnDefinitions>
+            <TabControl x:Name="tabControl" Margin="0,10"  HorizontalAlignment="Stretch" AllowDrop="True" Drop="tabControl_Drop" Grid.ColumnSpan="3">
+                <TabControl.Effect>
+                    <DropShadowEffect/>
+                </TabControl.Effect>
+            </TabControl>
+        </Grid>
+        <StatusBar  VerticalAlignment="Bottom" >
+            <StatusBarItem >
+                <TextBlock Style="{StaticResource TextBlockStyle}" Text="{DynamicResource CharNumber}" />
+            </StatusBarItem>
+            <StatusBarItem >
+                <TextBlock Name="textblock_charvalue" Width="15"/>
+            </StatusBarItem>
+            <TextBlock Name="curent_language" HorizontalAlignment="Right" Style="{StaticResource DataTriggersStyle}"/>
+            <Button Content="EventTriggerButton" Width="150" Style="{StaticResource EventTriggerStyle}" Template="{StaticResource buttontemplate}"/>
+            <local:UserControl1/>
+        </StatusBar>
+    </Grid>
+</Window>

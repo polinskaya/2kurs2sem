@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ShopSet" EntityType="Model1.Shop" />
+    <EntitySet Name="EmployeeSet" EntityType="Model1.Employee" />
+    <AssociationSet Name="EmployeeShop" Association="Model1.EmployeeShop">
+      <End Role="Employee" EntitySet="EmployeeSet" />
+      <End Role="Shop" EntitySet="ShopSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Shop">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Model1.EmployeeShop" FromRole="Shop" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Job" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Shop" Relationship="Model1.EmployeeShop" FromRole="Employee" ToRole="Shop" />
+  </EntityType>
+  <Association Name="EmployeeShop">
+    <End Type="Model1.Employee" Role="Employee" Multiplicity="*" />
+    <End Type="Model1.Shop" Role="Shop" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Shop">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="Job" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,112 @@
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\лаб9.exe.config
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\лаб9.exe
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\лаб9.pdb
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\Dragablz.dll
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\MaterialDesignColors.dll
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\Simplify.Resources.dll
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\Simplify.Windows.Forms.dll
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\Dragablz.pdb
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\Dragablz.xml
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\Simplify.Resources.xml
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\bin\Debug\Simplify.Windows.Forms.xml
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\MainWindow.g.cs
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\UserControl1.g.cs
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\App.g.cs
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9_MarkupCompile.cache
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9_MarkupCompile.lref
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\App.baml
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\Dictionary.baml
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\MainWindow.baml
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\res\lang_ru.baml
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\res\lang.baml
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\UserControl1.baml
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9.g.resources
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9.Properties.Resources.resources
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\лаб10.csproj.GenerateResource.Cache
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9.exe
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9.pdb
+C:\Users\Артём\Downloads\lab10\lab10\лаб10\лаб9\obj\Debug\лаб10.csprojResolveAssemblyReference.cache
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\json_file_store.json
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\лаб9.exe.config
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\лаб9.exe
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\лаб9.pdb
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\Dragablz.dll
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\MaterialDesignColors.dll
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\Newtonsoft.Json.dll
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\RibbonControlsLibrary.dll
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\Simplify.Resources.dll
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\Simplify.Windows.Forms.dll
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\Dragablz.pdb
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\Dragablz.xml
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\MaterialDesignColors.pdb
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\Newtonsoft.Json.xml
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\Simplify.Resources.xml
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\bin\Debug\Simplify.Windows.Forms.xml
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\MainWindow.g.cs
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\UserControl1.g.cs
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\App.g.cs
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9_MarkupCompile.cache
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9_MarkupCompile.lref
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\App.baml
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\Dictionary.baml
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\MainWindow.baml
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\res\lang_ru.baml
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\res\lang.baml
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\UserControl1.baml
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9.g.resources
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9.Properties.Resources.resources
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\лаб10.csproj.GenerateResource.Cache
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9.exe
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\лаб9.pdb
+E:\Учёба\2 курс\2 semester\OOP2\Labs\lab10\lab10\лаб10\лаб9\obj\Debug\лаб10.csprojResolveAssemblyReference.cache
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\json_file_store.json
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\лаб9.exe.config
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\лаб9.exe
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\лаб9.pdb
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\Dragablz.dll
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\MaterialDesignColors.dll
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\Newtonsoft.Json.dll
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\RibbonControlsLibrary.dll
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\Simplify.Resources.dll
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\Simplify.Windows.Forms.dll
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\Dragablz.pdb
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\Dragablz.xml
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\MaterialDesignColors.pdb
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\Newtonsoft.Json.xml
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\Simplify.Resources.xml
+D:\2семестр\ооп\lp\лаб10\лаб9\bin\Debug\Simplify.Windows.Forms.xml
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\лаб10.csprojAssemblyReference.cache
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\MainWindow.g.cs
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\UserControl1.g.cs
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\App.g.cs
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\лаб9_MarkupCompile.cache
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\лаб9_MarkupCompile.lref
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\App.baml
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\Dictionary.baml
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\MainWindow.baml
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\res\lang_ru.baml
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\res\lang.baml
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\UserControl1.baml
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\лаб9.g.resources
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\лаб9.Properties.Resources.resources
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\лаб10.csproj.GenerateResource.cache
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\лаб10.csproj.CoreCompileInputs.cache
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\лаб10.csproj.CopyComplete
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\лаб9.exe
+D:\2семестр\ооп\lp\лаб10\лаб9\obj\Debug\лаб9.pdb

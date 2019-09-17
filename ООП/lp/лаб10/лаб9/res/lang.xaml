@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:лаб9.res"
+                    xmlns:clr="clr-namespace:System;assembly=mscorlib">
+
+
+
+    <clr:String x:Key="File">File</clr:String>
+    <clr:String x:Key="New file">New file</clr:String>
+    <clr:String x:Key="Open">Open</clr:String>
+    <clr:String x:Key="Save">Save</clr:String>
+    
+    <clr:String x:Key="Edit">Edit</clr:String>
+    <clr:String x:Key="Paste">Paste</clr:String>
+    <clr:String x:Key="Copy">Copy</clr:String>
+
+    <clr:String x:Key="Style">Style</clr:String>
+    <clr:String x:Key="Dark">Dark</clr:String>
+    <clr:String x:Key="Light">Light</clr:String>
+
+
+    <clr:String x:Key="Undo">Undo</clr:String>
+    <clr:String x:Key="Redo">Redo</clr:String>
+
+
+    <clr:String x:Key="Color">Color</clr:String>
+    
+    <clr:String x:Key="Language">Language</clr:String>
+    <clr:String x:Key="Setting">Setting</clr:String>
+
+    <clr:String x:Key="CharNumber">Char count</clr:String>
+
+
+</ResourceDictionary>

@@ -1,0 +1,22 @@
+#include <math.h>
+const double pi=3.14159;
+
+
+struct CSizeD
+{
+  double cx;
+  double cy;
+};
+
+struct CRectD 
+ { 
+  double left; 
+  double top; 
+  double right; 
+  double bottom; 
+  CRectD(){ left=top=right=bottom=0; };
+  CRectD(double l,double t,double r,double b);
+  void SetRectD(double l,double t,double r,double b);
+  CSizeD SizeD();	// Возвращает размеры(ширина, высота) прямоугольника 
+ };
+

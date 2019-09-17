@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="WpfApp4.UserControl2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp4"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="#FF50E848" >
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btn2" Content="Button2" Click="Button_Click" Margin="204,96,121,109" Grid.Row="1"/>
+        <TextBox x:Name="txtbx1" Margin="53,60,43,26" TextWrapping="Wrap" TextChanged="txtbx1_TextChanged_1" Grid.Column="1">
+            <TextBox.Text>
+                <Binding Path="Name" UpdateSourceTrigger="PropertyChanged"  ValidatesOnDataErrors="True">
+                    <Binding.ValidationRules >
+                        <ExceptionValidationRule />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Button Margin="10,61,270,59" Background="#FF212166" Grid.Row="1" PreviewMouseDown="Btn2_MouseEnter" Click="Button_Click_2">
+            <Button x:Name="button1" Width="80" Height="50" Background="WhiteSmoke" PreviewMouseDown="Btn2_MouseEnter" RenderTransformOrigin="0.5,0.5" >
+
+                <Ellipse Width="30" Height="30" Fill="Red" PreviewMouseDown="Btn2_MouseEnter" />
+            </Button>
+        </Button>
+        <Button Margin="270,61,10,59" Background="#FFF3E236" Grid.Row="1" MouseDown="Btn2_MouseEnter" Grid.Column="1">
+            <Button x:Name="button2" Width="80" Height="50" Background="#FFF2F2F3" MouseDown="Btn2_MouseEnter" RenderTransformOrigin="0.5,0.5" >
+
+                <Ellipse Width="30" Height="30" Fill="Red" MouseDown="Btn2_MouseEnter" />
+            </Button>
+        </Button>
+
+
+    </Grid>
+</UserControl>

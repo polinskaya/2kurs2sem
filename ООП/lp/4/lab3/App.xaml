@@ -1,0 +1,16 @@
+﻿<Application x:Class="lab3.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:lab3"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="DictionaryRu.xaml" />
+                <ResourceDictionary Source="DictionaryEN.xaml" />
+                <ResourceDictionary Source="1.xaml" />
+                <ResourceDictionary Source="2.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

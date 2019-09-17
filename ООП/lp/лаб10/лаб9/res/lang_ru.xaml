@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:лаб9.res"
+                    xmlns:clr="clr-namespace:System;assembly=mscorlib">
+
+
+
+    <clr:String x:Key="File">Файл</clr:String>
+    <clr:String x:Key="New file">Новый файл</clr:String>
+    <clr:String x:Key="Open">Открыть</clr:String>
+    <clr:String x:Key="Save">Сохранить</clr:String>
+
+    <clr:String x:Key="Edit">Редактировать</clr:String>
+    <clr:String x:Key="Paste">Вставить</clr:String>
+    <clr:String x:Key="Copy">Копировать</clr:String>
+
+    <clr:String x:Key="Style">Стиль</clr:String>
+    <clr:String x:Key="Dark">Темный</clr:String>
+    <clr:String x:Key="Light">Светлый</clr:String>
+
+    <clr:String x:Key="Undo">Назад</clr:String>
+    <clr:String x:Key="Redo">Вперед</clr:String>
+
+
+    <clr:String x:Key="Color">Цвет</clr:String>
+
+    <clr:String x:Key="Language">Язык</clr:String>
+    <clr:String x:Key="Setting">Настройки</clr:String>
+
+    <clr:String x:Key="CharNumber">Число символов</clr:String>
+
+
+</ResourceDictionary>

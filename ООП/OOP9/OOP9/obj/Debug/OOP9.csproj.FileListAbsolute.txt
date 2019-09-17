@@ -1,0 +1,7 @@
+D:\2семестр\ооп\OOP9\OOP9\bin\Debug\OOP9.exe.config
+D:\2семестр\ооп\OOP9\OOP9\bin\Debug\OOP9.exe
+D:\2семестр\ооп\OOP9\OOP9\bin\Debug\OOP9.pdb
+D:\2семестр\ооп\OOP9\OOP9\obj\Debug\OOP9.csprojAssemblyReference.cache
+D:\2семестр\ооп\OOP9\OOP9\obj\Debug\OOP9.csproj.CoreCompileInputs.cache
+D:\2семестр\ооп\OOP9\OOP9\obj\Debug\OOP9.exe
+D:\2семестр\ооп\OOP9\OOP9\obj\Debug\OOP9.pdb

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Met_MyBaseModelContainer" CdmEntityContainer="Met_MyBaseEntities">
+    <EntitySetMapping Name="ПОКУПКИ">
+      <EntityTypeMapping TypeName="Met_MyBaseModel.ПОКУПКИ">
+        <MappingFragment StoreEntitySet="ПОКУПКИ">
+          <ScalarProperty Name="Номер" ColumnName="Номер" />
+          <ScalarProperty Name="Название_товара" ColumnName="Название_товара" />
+          <ScalarProperty Name="Количество_купленных_товаров" ColumnName="Количество_купленных_товаров" />
+          <ScalarProperty Name="Дата_покупки" ColumnName="Дата_покупки" />
+          <ScalarProperty Name="Покупатель" ColumnName="Покупатель" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ТОВАР">
+      <EntityTypeMapping TypeName="Met_MyBaseModel.ТОВАР">
+        <MappingFragment StoreEntitySet="ТОВАР">
+          <ScalarProperty Name="Название" ColumnName="Название" />
+          <ScalarProperty Name="Описание" ColumnName="Описание" />
+          <ScalarProperty Name="Цена" ColumnName="Цена" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ФИРМА">
+      <EntityTypeMapping TypeName="Met_MyBaseModel.ФИРМА">
+        <MappingFragment StoreEntitySet="ФИРМА">
+          <ScalarProperty Name="Название_отдела" ColumnName="Название_отдела" />
+          <ScalarProperty Name="Количество_сотрудников" ColumnName="Количество_сотрудников" />
+          <ScalarProperty Name="Предельная_норма_расхода" ColumnName="Предельная_норма_расхода" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

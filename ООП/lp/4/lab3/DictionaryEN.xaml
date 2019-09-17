@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:lab3">
+    <HeaderedItemsControl x:Key="File">File</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Edit">Edit</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Style">Style</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Color">Color</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="New">New</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Open">Open</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Save">Save</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Copy">Copy</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Paste">Paste</HeaderedItemsControl>
+ 
+</ResourceDictionary>

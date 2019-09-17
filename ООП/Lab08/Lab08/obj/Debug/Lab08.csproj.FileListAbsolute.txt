@@ -1,0 +1,15 @@
+D:\2семестр\ооп\Lab08\Lab08\bin\Debug\Lab08.exe.config
+D:\2семестр\ооп\Lab08\Lab08\bin\Debug\Lab08.exe
+D:\2семестр\ооп\Lab08\Lab08\bin\Debug\Lab08.pdb
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\Lab08.csprojAssemblyReference.cache
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\MainWindow.g.cs
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\App.g.cs
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\Lab08_MarkupCompile.cache
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\Lab08_MarkupCompile.lref
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\MainWindow.baml
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\Lab08.g.resources
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\Lab08.Properties.Resources.resources
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\Lab08.csproj.GenerateResource.cache
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\Lab08.csproj.CoreCompileInputs.cache
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\Lab08.exe
+D:\2семестр\ооп\Lab08\Lab08\obj\Debug\Lab08.pdb

@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:lab3">
+    <HeaderedItemsControl x:Key="File">Файл</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Edit">Правка</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Style">Стиль</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Color">Цвет</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="New">Новый</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Open">Открыть</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Save">Сохранить</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Copy">Копировать</HeaderedItemsControl>
+    <HeaderedItemsControl x:Key="Paste">Вставить</HeaderedItemsControl>
+  
+</ResourceDictionary>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="Lab9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF264E7E">
+        <ListBox x:Name="phone" HorizontalAlignment="Left" Height="170" Margin="29,217,0,0" VerticalAlignment="Top" Width="155"/>
+        <ListBox x:Name="company" HorizontalAlignment="Left" Height="170" Margin="202,217,0,0" VerticalAlignment="Top" Width="155"/>
+        <Button Content="Add phone" Margin="67,158,650,0" Click="Button_Click" Height="36" VerticalAlignment="Top"/>
+        <Button Content="Add company" Margin="240,160,458,0" Click="Button_Click_1" Height="34" VerticalAlignment="Top"/>
+        <TextBox x:Name="companyTB" HorizontalAlignment="Left" Margin="202,109,0,287" TextWrapping="Wrap" Text="Company Name" Width="155"/>
+        <TextBox x:Name="priceTB" HorizontalAlignment="Left" Height="23" Margin="29,109,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top" Width="155"/>
+        <TextBox x:Name="phoneTB" HorizontalAlignment="Left" Height="23" Margin="29,65,0,0" TextWrapping="Wrap" Text="Phone" VerticalAlignment="Top" Width="155"/>
+        <GridSplitter HorizontalAlignment="Stretch" Margin="401,0,386,0"/>
+        <ListBox x:Name="phone_Unit" HorizontalAlignment="Left" Height="170" Margin="432,217,0,0" VerticalAlignment="Top" Width="155"/>
+        <ListBox x:Name="company_Unit" HorizontalAlignment="Left" Height="170" Margin="605,217,0,0" VerticalAlignment="Top" Width="155"/>
+        <Button Content="Add phone" Margin="470,158,247,0" Click="Button_Click_Unit" Height="36" VerticalAlignment="Top"/>
+        <Button Content="Add company" Margin="643,160,55,0" Click="Button_Click_1_Unit" Height="34" VerticalAlignment="Top"/>
+        <TextBox x:Name="companyTB_Unit" HorizontalAlignment="Left" Margin="605,109,0,287" TextWrapping="Wrap" Text="Company Name" Width="155"/>
+        <TextBox x:Name="priceTB_Unit" HorizontalAlignment="Left" Height="23" Margin="432,109,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top" Width="155"/>
+        <TextBox x:Name="phoneTB_Unit" HorizontalAlignment="Left" Height="23" Margin="432,65,0,0" TextWrapping="Wrap" Text="Phone" VerticalAlignment="Top" Width="155"/>
+        <Label Content="Unit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="549,10,0,0"/>
+
+    </Grid>
+</Window>

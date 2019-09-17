@@ -1,0 +1,58 @@
+﻿<Window x:Class="Lab08.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab08"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="500"  Loaded="Window_Loaded" 
+        FontFamily="Century Gothic" FontStyle="Italic" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid KeyboardNavigation.DirectionalNavigation="Cycle">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <StackPanel>
+                <Label Content="Computer" Margin="68,0"/>
+                <DataGrid x:Name="dataGridComp" AutoGenerateColumns="False" Height="150" Margin="70,0">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding ID}" Header="ID" Width="25"/>
+                        <DataGridTextColumn Binding="{Binding Type}" Header="Тип" Width="75"/>
+                        <DataGridTextColumn Binding="{Binding ProcessorID}" Header="Процессор" Width="82"/>
+                        <DataGridTextColumn Binding="{Binding SizeRAM}" Header="Размер ОЗУ" Width="85"/>
+                        <DataGridTextColumn Binding="{Binding TypeRAM}" Header="Тип ОЗУ" Width="65"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <Label Content="Processor" Margin="68,0"/>
+                <DataGrid x:Name="dataGridProc" AutoGenerateColumns="False" Height="150" Width="355">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding ID}" Header="ID" Width="40"/>
+                        <DataGridTextColumn Binding="{Binding Producer}" Header="Производитель" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding Model}" Header="Модель" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding CountOfCores}" Header="Кол-во ядер" Width="100"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0">
+                <Button x:Name="btn_read" Content="Update" Width="65" Height="25" Background="LightGray" Click="BtnUpdate_Click" Margin="0,0,50,0" />
+                <Button x:Name="Stored_Procedure" Content="StoredProc" Width="80" Height="25" Background="LightGray" Click="StoredProc_Click" Margin="0,0,50,0"/>
+                <Button x:Name="btn_del" Content="Delete" Width="65" Height="25" Background="LightGray" Click="BtnDel_Click"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBox x:Name="Script"  Height="25" Width="270" Margin="0,0,10,0" TextChanged="TxtScript_TextChanged"/>
+                <Button x:Name="Enter_Script" Content="Use script" Width="65" Height="25" Background="LightGray" Click="Script_Click" />
+            </StackPanel>
+
+        </Grid>
+
+    </Grid>
+</Window>
