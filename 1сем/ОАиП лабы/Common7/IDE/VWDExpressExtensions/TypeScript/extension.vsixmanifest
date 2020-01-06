@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="Microsoft.TypeScript.3D12078A-1A3F-4AFF-8B70-0037C0F580CD" Version="1.8.36.0" Language="en-US" Publisher="Microsoft" />
+    <DisplayName>TypeScript for Microsoft Visual Studio</DisplayName>
+    <Description>Language service for TypeScript</Description>
+    <MoreInfo>http://go.microsoft.com/fwlink/?LinkId=615017</MoreInfo>
+    <License>TypeScript_License.rtf</License>
+  </Metadata>
+  <Installation AllUsers="true" InstalledByMsi="true">
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.VWDExpress" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.VSWinExpress" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="PT" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="IT" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="Microsoft.VisualStudio.LanguageServices.TypeScript.dll" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    <Asset Type="Microsoft.VisualStudio.Analyzer" Path="Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll" />
+  </Assets>
+</PackageManifest>

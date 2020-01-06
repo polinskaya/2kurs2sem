@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Nástroje API Microsoft Office 365</LocalizedName>
+  <LocalizedDescription>Integrujte si aplikace se službami Office 365, jako je pošta, kalendář, kontakty, soubory a další. Toto rozšíření pomůže při registraci vaší aplikace, aby mohla využívat rozhraní Office 365 API, a přidá potřebné knihovny NuGet, abyste mohli služby a aplikace začít používat hned.</LocalizedDescription>
+</VsixLanguagePack>

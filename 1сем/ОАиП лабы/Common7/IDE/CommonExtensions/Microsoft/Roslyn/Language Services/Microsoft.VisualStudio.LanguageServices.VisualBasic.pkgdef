@@ -1,0 +1,56 @@
+[$RootKey$\AutomationProperties\TextEditor\Basic-Specific]
+@="#104"
+"Description"="#106"
+"Name"="Basic-Specific"
+"Package"="{574fc912-f74f-4b4e-92c3-f695c208a2bb}"
+"ProfileSave"=dword:00000001
+"VSSettingsMigration"=dword:00000001
+[$RootKey$\AutomationProperties\TextEditor\Basic]
+@="#103"
+"Description"="#105"
+"Name"="Basic"
+"Package"="{f5e7e720-1401-11d1-883b-0000f87579d2}"
+"ResourcePackage"="{574fc912-f74f-4b4e-92c3-f695c208a2bb}"
+"ProfileSave"=dword:00000001
+"VSSettingsMigration"=dword:00000001
+[$RootKey$\Packages\{574fc912-f74f-4b4e-92c3-f695c208a2bb}]
+@="VisualBasicPackage"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.VisualStudio.LanguageServices.VisualBasic.VisualBasicPackage"
+"Assembly"="Microsoft.VisualStudio.LanguageServices.VisualBasic, Version=1.3.1.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"
+[$RootKey$\Languages\Language Services\Basic\EditorToolsOptions\Code Style]
+@="#109"
+"Package"="{574fc912-f74f-4b4e-92c3-f695c208a2bb}"
+"Page"="{b44a207f-6064-3448-96ba-f3e01cb221ca}"
+"Keywords"="#10161"
+[$RootKey$\Languages\Language Services\Basic\EditorToolsOptions\Advanced]
+@="#102"
+"Package"="{574fc912-f74f-4b4e-92c3-f695c208a2bb}"
+"Page"="{f1e1021e-a781-4862-9f4b-88746a288a67}"
+"Keywords"="#10160"
+[$RootKey$\Languages\File Extensions\.bas]
+@="{e34acdc0-baae-11d0-88bf-00a0c9110049}"
+[$RootKey$\Languages\File Extensions\.cls]
+@="{e34acdc0-baae-11d0-88bf-00a0c9110049}"
+[$RootKey$\Languages\File Extensions\.ctl]
+@="{e34acdc0-baae-11d0-88bf-00a0c9110049}"
+[$RootKey$\Languages\File Extensions\.dob]
+@="{e34acdc0-baae-11d0-88bf-00a0c9110049}"
+[$RootKey$\Languages\File Extensions\.dsr]
+@="{e34acdc0-baae-11d0-88bf-00a0c9110049}"
+[$RootKey$\Languages\File Extensions\.frm]
+@="{e34acdc0-baae-11d0-88bf-00a0c9110049}"
+[$RootKey$\Languages\File Extensions\.pag]
+@="{e34acdc0-baae-11d0-88bf-00a0c9110049}"
+[$RootKey$\Languages\File Extensions\.vb]
+@="{e34acdc0-baae-11d0-88bf-00a0c9110049}"
+[$RootKey$\Services\{e34acdc0-baae-11d0-88bf-00a0c9110049}]
+@="{574fc912-f74f-4b4e-92c3-f695c208a2bb}"
+"Name"="Visual Basic Language Service"
+[$RootKey$\Services\{019971d6-4685-11d2-b48a-0000f87572eb}]
+@="{574fc912-f74f-4b4e-92c3-f695c208a2bb}"
+"Name"="Visual Basic Project System Shim"
+[$RootKey$\Services\{8df9750d-069b-4b81-973a-152e97420c5c}]
+@="{574fc912-f74f-4b4e-92c3-f695c208a2bb}"
+"Name"="Visual Basic TempPE Compiler Factory Service"
+

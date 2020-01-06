@@ -1,0 +1,28 @@
+[$RootKey$\Packages\{4a9b7e50-aa16-11d0-a8c5-00a0c921a4d2}]
+@="ErrorListPackage"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.VisualStudio.ErrorListPkg.ErrorListPackage"
+"CodeBase"="$PackageFolder$\Microsoft.VisualStudio.ErrorListPkg.dll"
+[$RootKey$\ToolsOptionsPages\Environment\Task List]
+@="#13719"
+"Package"="{4a9b7e50-aa16-11d0-a8c5-00a0c921a4d2}"
+"Page"="{bef96440-1769-11d1-8f8d-00a0c91bbfa2}"
+"Keywords"="#14985"
+[$RootKey$\AutomationProperties\Environment\TaskList]
+@="@TaskListOptions"
+"Name"="Environment.TaskList"
+"Package"="{4a9b7e50-aa16-11d0-a8c5-00a0c921a4d2}"
+"ProfileSave" = dword:1
+"vsSettingsMigration" = dword:1
+[$RootKey$\ToolWindows\{d78612c7-9962-4b83-95d9-268046dad23a}]
+@="{4a9b7e50-aa16-11d0-a8c5-00a0c921a4d2}"
+"Name"="Microsoft.VisualStudio.ErrorListPkg.Shims.ErrorListWindow"
+[$RootKey$\ToolWindows\{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}]
+@="{4a9b7e50-aa16-11d0-a8c5-00a0c921a4d2}"
+"Name"="Microsoft.VisualStudio.ErrorListPkg.Shims.TaskListWindow"
+[$RootKey$\Services\{599BCD9E-CAFA-43DF-AA03-129C0004C2BD}]
+"Name"="Error list"
+@="{4A9B7E50-AA16-11D0-A8C5-00A0C921A4D2}"
+[$RootKey$\Services\{9D21BCC5-2C63-4A61-B055-2F3DF78EB30A}]
+"Name"="Task list"
+@="{4A9B7E50-AA16-11D0-A8C5-00A0C921A4D2}"

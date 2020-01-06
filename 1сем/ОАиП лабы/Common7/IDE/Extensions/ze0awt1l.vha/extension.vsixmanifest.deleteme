@@ -1,0 +1,22 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="AuthenticationConnectedServices.F66AC3F0-CE44-47FB-AF79-21EE97E09126" Version="1.1.63009.34349" Language="en-US" Publisher="Microsoft" />
+    <DisplayName>Azure AD Authentication Connected Service</DisplayName>
+    <Description xml:space="preserve">Provides the wizard to configure Azure AD Authentication Single Sign-On in web projects.</Description>
+    <MoreInfo>http://go.microsoft.com/fwlink/?LinkId=534858</MoreInfo>
+    <Icon>ActiveDirectory.png</Icon>
+    <Tags>ConnectedServices; Azure; ActiveDirectory; Authentication; SingleSignOn</Tags>
+  </Metadata>
+  <Installation AllUsers="true">
+    <InstallationTarget Version="[14.0]" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[14.0]" Id="Microsoft.VisualStudio.VWDExpress" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+    <Dependency Id="ConnectedServices.B3144AF8-5B8F-491C-9ACA-996350E8FE95" DisplayName="Microsoft Connected Services" Version="[2.0,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="Microsoft.VisualStudio.Authentication.ConnectedServices.dll" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Microsoft.VisualStudio.Authentication.ConnectedServices.pkgdef" />
+  </Assets>
+</PackageManifest>

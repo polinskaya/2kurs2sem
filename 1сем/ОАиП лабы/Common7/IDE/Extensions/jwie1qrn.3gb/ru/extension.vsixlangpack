@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Подключенная служба мобильных служб Microsoft Azure</LocalizedName>
+  <LocalizedDescription>Позволяет разработчикам с легкостью создавать мобильные службы Azure и подключаться к ним благодаря пошаговому руководству.</LocalizedDescription>
+  <MoreInfoUrl>http://go.microsoft.com/fwlink/?LinkId=534856</MoreInfoUrl>
+</VsixLanguagePack>

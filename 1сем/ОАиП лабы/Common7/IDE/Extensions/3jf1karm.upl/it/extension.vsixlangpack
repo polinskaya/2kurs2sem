@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Strumenti API di Office 365</LocalizedName>
+  <LocalizedDescription>Oltre a poter integrare le proprie applicazioni con i servizi di Office 365, tra cui posta elettronica, calendario, contatti e file, con questa estensione è possibile registrare l'applicazione per consentire l'uso delle API di Office 365 e aggiungere le librerie NuGet necessarie per essere subito operativi.</LocalizedDescription>
+</VsixLanguagePack>

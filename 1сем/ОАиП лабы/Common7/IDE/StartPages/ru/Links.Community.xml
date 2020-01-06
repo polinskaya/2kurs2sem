@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <discovertitle id="discovertitle">Узнайте о возможностях Visual Studio %VSSKU_INFO%</discovertitle>
+  <discovertext id="discovertext_ce">Получите все возможности Visual Studio с этими ресурсами:</discovertext>
+  <discovercommands>
+    <command>
+      <commandtype>Browse</commandtype>
+      <title id="learn_new_features_in_vs12_ce">Новичок в Visual Studio? Ознакомьтесь с учебниками по кодированию и примерами проектов</title>
+      <parameter>https://go.microsoft.com/fwlink/p/?LinkId=659128&amp;clcid=%VSSPV_LCID_HEX%</parameter>
+    </command>
+    <command>
+      <commandtype>Browse</commandtype>
+      <title id="tutorials_videos_samples_ce">Пройдите обучение новым платформам, языкам и технологиям</title>
+      <parameter>https://go.microsoft.com/fwlink/p/?LinkId=659129&amp;clcid=%VSSPV_LCID_HEX%</parameter>
+    </command>
+    <command>
+      <commandtype>Browse</commandtype>
+      <title id="create_private_repo_ce">Создайте закрытый репозиторий кода и список невыполненной работы для проекта</title>
+      <parameter>https://go.microsoft.com/fwlink/p/?LinkId=659130&amp;clcid=%VSSPV_LCID_HEX%</parameter>
+    </command>
+    <command>
+      <commandtype>Browse</commandtype>
+      <title id="get_started_with_cloud_ce">Узнайте, как просто начать работать с облачными службами</title>
+      <parameter>https://go.microsoft.com/fwlink/p/?LinkId=659131&amp;clcid=%VSSPV_LCID_HEX%</parameter>
+    </command>
+    <command>
+      <commandtype>Browse</commandtype>
+      <title id="discover_extensibility_ce">Узнайте способы расширения и настройки интерфейса IDE</title>
+      <parameter>https://go.microsoft.com/fwlink/p/?LinkId=659132&amp;clcid=%VSSPV_LCID_HEX%</parameter>
+    </command>
+  </discovercommands>
+  <discovernothanks id="discovernothanks">Нет, спасибо, может быть позже.</discovernothanks>
+  <whatsnewtitle id="whatsnewtitle">Новые возможности на платформах Майкрософт</whatsnewtitle>
+  <whatsnewcommands>
+    <command>
+      <commandtype>Browse</commandtype>
+	  <imagemoniker>KnownMonikers.Windows</imagemoniker>
+      <title id="whats_new_in_win">Windows</title>
+      <parameter>https://go.microsoft.com/fwlink/p/?LinkId=659088&amp;clcid=%VSSPV_LCID_HEX%</parameter>
+    </command>
+    <command>
+      <commandtype>Browse</commandtype>
+	  <imagemoniker>KnownMonikers.WindowsAzure</imagemoniker>
+      <title id="whats_new_in_winazure">Microsoft Azure</title>
+      <parameter>https://go.microsoft.com/fwlink/p/?LinkId=659092&amp;clcid=%VSSPV_LCID_HEX%</parameter>
+    </command>
+    <command>
+      <commandtype>Browse</commandtype>
+	  <imagemoniker>KnownMonikers.DotNET</imagemoniker>
+      <title id="whats_new_in_aspdotnet">ASP.NET и Интернет</title>
+      <parameter>https://go.microsoft.com/fwlink/p/?LinkId=659096&amp;clcid=%VSSPV_LCID_HEX%</parameter>
+    </command>
+  </whatsnewcommands>
+  <!--Dev14 bug 184807: The RSS feeds (announcements and videos) need to use https because they pull down a feed with links in it that 
+      could potientially be tampered with by a Man in the Middle. -->
+  <announcementsfeed>https://go.microsoft.com/fwlink/p/?LinkId=659105&amp;clcid=%VSSPV_LCID_HEX%</announcementsfeed>
+  <MoreAnnouncementsLink>https://go.microsoft.com/fwlink/p/?LinkId=659112&amp;clcid=%VSSPV_LCID_HEX%</MoreAnnouncementsLink>
+  <videorssfeed>https://go.microsoft.com/fwlink/p/?LinkId=659069&amp;clcid=%VSSPV_LCID_HEX%</videorssfeed>
+  <MoreVideosLink>https://go.microsoft.com/fwlink/p/?LinkId=659071&amp;clcid=%VSSPV_LCID_HEX%</MoreVideosLink>
+</items>

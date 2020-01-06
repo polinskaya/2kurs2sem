@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Azure AD 驗證已連接服務</LocalizedName>
+  <LocalizedDescription>提供在 Web 專案中設定 Azure AD 驗證單一登入的精靈。</LocalizedDescription>
+  <MoreInfoUrl>http://go.microsoft.com/fwlink/?LinkId=534858</MoreInfoUrl>
+</VsixLanguagePack>

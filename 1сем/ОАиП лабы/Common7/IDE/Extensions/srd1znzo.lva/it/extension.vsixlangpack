@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Servizio connesso di Autenticazione di Azure AD</LocalizedName>
+  <LocalizedDescription>Fornisce la procedura guidata per configurare l'autenticazione Single Sign-On di Azure AD nei progetti Web.</LocalizedDescription>
+  <MoreInfoUrl>http://go.microsoft.com/fwlink/?LinkId=534858</MoreInfoUrl>
+</VsixLanguagePack>

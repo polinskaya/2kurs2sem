@@ -1,0 +1,20 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="A7627035-4333-48BF-B691-1DA0DB683BFC" Version="1.6.51113.1" Language="en-US" Publisher="Microsoft" />
+    <DisplayName>Microsoft Office 365 API Tools</DisplayName>
+    <Description>Integrate your applications with Office 365 services such as mail, calendar, contacts, files and more. This extension will help register your application to consume Office 365 APIs, and will add the necessary NuGet libraries to get you up and running in no time.</Description>
+    <Icon>Images\OfficeTooling_whiteHalo_64x.png</Icon>
+    <PreviewImage>Images\OfficeTooling_whiteHalo_64x.png</PreviewImage>
+  </Metadata>
+  <Installation InstalledByMsi="false" AllUsers="true">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.14.0" DisplayName="Visual Studio MPF 14.0" Version="[14.0]" />
+    <Dependency Id="ConnectedServices.B3144AF8-5B8F-491C-9ACA-996350E8FE95" DisplayName="Microsoft Connected Services" Version="[2.0,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="Microsoft.VisualStudio.Office365.dll" />
+  </Assets>
+</PackageManifest>

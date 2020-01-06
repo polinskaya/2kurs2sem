@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Microsoft Azure Mobile Services - verbundener Dienst</LocalizedName>
+  <LocalizedDescription>Ermöglichen Sie Entwicklern das problemlose Erstellen von und Verbinden mit Azure Mobile Services mit schrittweisen Anleitungen.</LocalizedDescription>
+  <MoreInfoUrl>http://go.microsoft.com/fwlink/?LinkId=534856</MoreInfoUrl>
+</VsixLanguagePack>

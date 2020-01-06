@@ -1,0 +1,13 @@
+﻿<HTML>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<H3>Чтобы использовать этот пользовательский элемент управления в файле XAML в другом проекте, выполните следующие действия:</H3>
+<BODY>
+    <UL>
+        <LI>Добавьте ссылку на этот проект.</LI>
+        <LI>Добавьте в корневой элемент файла XAML, в котором требуется использовать этот элемент управления, следующую строку:<BR>
+            xmlns:MyNamespace="clr-namespace:$safeprojectname$;assembly=$safeprojectname$"</LI>
+        <LI>Используйте элемент управления в файле XAML:<BR>
+            &LT;MyNamespace:CustomControl1/&GT;</LI>
+    </UL>
+</BODY>
+</HTML>

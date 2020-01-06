@@ -1,0 +1,7 @@
+<PackageLanguagePackManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <DisplayName xml:space="preserve">개발자 분석 도구</DisplayName>
+    <Description xml:space="preserve">Visual Studio에서 바로 Application Insights와  HockeyApp을 사용하여 응용 프로그램에 대해 파악합니다.</Description>
+    <License>EULA.rtf</License>
+  </Metadata>
+</PackageLanguagePackManifest>

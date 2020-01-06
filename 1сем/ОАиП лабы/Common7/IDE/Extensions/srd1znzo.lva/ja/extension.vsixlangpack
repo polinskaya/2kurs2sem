@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Azure AD 認証接続済みサービス</LocalizedName>
+  <LocalizedDescription>Web プロジェクトで Azure AD 認証のシングル サインオンを構成するためのウィザードが提供されます。</LocalizedDescription>
+  <MoreInfoUrl>http://go.microsoft.com/fwlink/?LinkId=534858</MoreInfoUrl>
+</VsixLanguagePack>

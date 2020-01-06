@@ -1,0 +1,46 @@
+[$RootKey$\Projects\{f184b08f-c81c-45f6-a57f-5abd9991f28f}\FileExtensions\.vsixmanifest]
+"EditorFactoryNotify"="{32cc8dfa-2d70-49b2-94cd-22d57349b778}"
+[$RootKey$\Projects\{fae04ec0-301f-11d3-bf4b-00c04f79efbc}\FileExtensions\.vsixmanifest]
+"EditorFactoryNotify"="{32cc8dfa-2d70-49b2-94cd-22d57349b778}"
+[$RootKey$\Packages\{f5d4bb28-24eb-4fc7-bdec-bf96ba99a8ee}]
+@="Microsoft.VsSDK.ExtensibilityProjectFlavor.ExtensibilityProjectFlavorPackage"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.VsSDK.ExtensibilityProjectFlavor.ExtensibilityProjectFlavorPackage"
+"Assembly"="Microsoft.VsSDK.ExtensibilityProjectFlavor,version=14.0.0.0,publicKeyToken=b03f5f7f11d50a3a,culture=neutral"
+"CodeBase"="$PackageFolder$\Microsoft.VsSDK.ExtensibilityProjectFlavor.dll"
+[$RootKey$\Editors\{2868f8ed-de25-439d-9f59-ad52458e9328}]
+"CommonPhysicalViewAttributes"=dword:00000003
+"DisplayName"="#106"
+"Package"="{f5d4bb28-24eb-4fc7-bdec-bf96ba99a8ee}"
+[$RootKey$\Editors\{2868f8ed-de25-439d-9f59-ad52458e9328}\Extensions]
+"vsixmanifest"=dword:00000040
+[$RootKey$\Editors\{2868f8ed-de25-439d-9f59-ad52458e9328}\LogicalViews]
+"{7651a702-06e5-11d1-8ebd-00a0c90f26ea}"=""
+[$RootKey$\Menus]
+"{f5d4bb28-24eb-4fc7-bdec-bf96ba99a8ee}"=", Menus.ctmenu, 1"
+[$RootKey$\CLSID\{7a85a6ef-a7c3-40d1-ae49-c4f04dd0e2a1}]
+@="Microsoft.VsSDK.ExtensibilityProjectFlavor.VsixPropertyPage"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.VsSDK.ExtensibilityProjectFlavor.VsixPropertyPage"
+"CodeBase"="$PackageFolder$\Microsoft.VsSDK.ExtensibilityProjectFlavor.dll"
+"ThreadingModel"="Both"
+[$RootKey$\Projects\{82b43b9b-a64c-4715-b499-d71e9ca2bd60}]
+@="ExtensibilityProjectFactory"
+"DisplayName"="Extensibility Project"
+"Package"="{f5d4bb28-24eb-4fc7-bdec-bf96ba99a8ee}"
+"ProjectTemplatesDir"="$PackageFolder$\Templates\Projects"
+[$RootKey$\NewProjectTemplates\TemplateDirs\{f5d4bb28-24eb-4fc7-bdec-bf96ba99a8ee}\/1]
+@="Extensibility Project"
+"SortPriority"=dword:00000064
+"TemplatesDir"="$PackageFolder$\Templates\Projects"
+[$RootKey$\Editors\{32CC8DFA-2D70-49b2-94CD-22D57349B778}\Extensions]
+"vsixmanifest"=dword:00000060
+[$RootKey$\XmlChooserFactory\VSIXManifest]
+"DefaultLogicalView"="{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"
+"Extension"="vsixmanifest"
+"Namespace"="http://schemas.microsoft.com/developer/vsx-schema/2011"
+"Match"="both"
+"{7651A700-06E5-11D1-8EBD-00A0C90F26EA}"="{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"="{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"="{2868F8ED-DE25-439D-9F59-AD52458E9328}"
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"="{FA3CD31E-987B-443A-9B81-186104E8DAC1}"

@@ -1,0 +1,23 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="1b11efe-37ad-45dd-a8f9-a540a6ed7bcb" Version="7.0.20622.1" Language="en-US" Publisher="Microsoft Corporation" />
+    <DisplayName xml:space="preserve">Developer Analytics Tools</DisplayName>
+    <Description xml:space="preserve">Gain visibility into your application using Application Insights and HockeyApp right from Visual Studio.</Description>
+    <ReleaseNotes>http://go.microsoft.com/fwlink/?LinkID=786904</ReleaseNotes>
+    <License>EULA.rtf</License>
+    <Icon>MicrosoftLogo.png</Icon>
+    <PreviewImage>MicrosoftLogo.png</PreviewImage>
+  </Metadata>
+  <Installation AllUsers="true">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0.25123.0,15.0)" />
+    <InstallationTarget Id="Microsoft.VisualStudio.VWDExpress" Version="[14.0.25123.0,15.0)" />
+    <InstallationTarget Id="Microsoft.VisualStudio.VSWinExpress" Version="[14.0.25123.0,15.0)" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="ConnectedServices.B3144AF8-5B8F-491C-9ACA-996350E8FE95" DisplayName="Microsoft Connected Services" Version="[2.0.50113.5,3.0)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Microsoft.VisualStudio.ApplicationInsights.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="Microsoft.VisualStudio.ApplicationInsights.dll" />
+  </Assets>
+</PackageManifest>

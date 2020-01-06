@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Azure AD 인증 연결된 서비스</LocalizedName>
+  <LocalizedDescription>웹 프로젝트에서 Azure AD 인증 Single Sign-On을 구성하는 마법사를 제공합니다.</LocalizedDescription>
+  <MoreInfoUrl>http://go.microsoft.com/fwlink/?LinkId=534858</MoreInfoUrl>
+</VsixLanguagePack>

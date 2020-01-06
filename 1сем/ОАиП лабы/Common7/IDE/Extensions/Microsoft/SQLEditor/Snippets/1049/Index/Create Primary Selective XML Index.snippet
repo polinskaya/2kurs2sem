@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <_locDefinition xmlns="urn:locstudio">
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">Title</_locTag>
+    <_locTag _loc="locData">Description</_locTag>
+    <_locTag _loc="locData">Author</_locTag>
+    <_locTag _loc="locData">ToolTip</_locTag>
+  </_locDefinition>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Создать первичный селективный XML-индекс</Title>
+      <Shortcut></Shortcut>
+      <Description>Создает первичный селективный XML-индекс.</Description>
+      <Author>Корпорация Майкрософт (Microsoft Corporation)</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>SchemaName</ID>
+          <ToolTip>Имя схемы</ToolTip>
+          <Default>dbo</Default>
+        </Literal>
+        <Literal>
+          <ID>TableName</ID>
+          <ToolTip>Имя таблицы, к которой применяется индекс</ToolTip>
+          <Default>TableName</Default>
+        </Literal>
+        <Literal>
+          <ID>SelectiveXMLIndexName</ID>
+          <ToolTip>Имя селективного XML-индекса</ToolTip>
+          <Default>SelectiveXMLIndexName</Default>
+        </Literal>
+        <Literal>
+          <ID>XMLColumn1</ID>
+          <ToolTip>Имя XML-столбца, к которому применяется индекс</ToolTip>
+          <Default>XMLColumn1</Default>
+        </Literal>
+        <Literal>
+          <ID>XPath1</ID>
+          <ToolTip>Указываемый путь XPath</ToolTip>
+          <Default>XPath1</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="SQL_SSDT">
+        <![CDATA[
+CREATE SELECTIVE XML INDEX $SelectiveXMLIndexName$
+    ON [$SchemaName$].[$TableName$]
+    ($XMLColumn1$)
+    FOR
+    (
+        [$XPath1$]='/'
+    )
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

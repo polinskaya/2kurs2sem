@@ -1,0 +1,21 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="MobileServicesConnectedServices.595B89E2-894C-4FB7-A207-C1C2C89A5C6E" Version="2.0.50619.2" Language="en-US" Publisher="Microsoft" />
+    <DisplayName>Microsoft Azure Mobile Services Connected Service</DisplayName>
+    <Description xml:space="preserve">Allows developers to create and connect to Azure Mobile Services easily and with step-by-step guidance.</Description>
+    <MoreInfo>http://go.microsoft.com/fwlink/?LinkId=534856</MoreInfo>
+    <Icon>ProviderIcon.png</Icon>
+    <Tags>ConnectedServices; Cloud; Azure; Services; Tools; Mobile</Tags>
+  </Metadata>
+  <Installation AllUsers="true">
+    <InstallationTarget Version="[14.0]" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[14.0]" Id="Microsoft.VisualStudio.VSWinExpress" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+    <Dependency Id="ConnectedServices.B3144AF8-5B8F-491C-9ACA-996350E8FE95" DisplayName="Microsoft Connected Services" Version="[2.0,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="Microsoft.VisualStudio.Azure.ConnectedServices.MobileServices.dll" />
+  </Assets>
+</PackageManifest>

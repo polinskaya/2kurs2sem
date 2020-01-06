@@ -1,0 +1,46 @@
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name Package="{164B10B9-B200-11D0-8C61-00A0C91E29D5}" ID="3135"/>
+    <Description Package="{164B10B9-B200-11D0-8C61-00A0C91E29D5}" ID="3136"/>
+    <Icon Package="{164B10B9-B200-11D0-8C61-00A0C91E29D5}" ID="4573"/>
+    <ProjectType>VisualBasic</ProjectType>
+    <SortOrder>100</SortOrder>
+    <DefaultName>AboutBox.vb</DefaultName>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>Microsoft.VisualBasic.WindowsForms.AboutBox</TemplateID>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+        <References>
+            <Reference>
+                <Assembly>System</Assembly>
+                <URL>http://www.microsoft.com</URL>
+            </Reference>
+            <Reference>
+                <Assembly>System.Drawing</Assembly>
+                <URL>http://www.microsoft.com</URL>
+            </Reference>
+            <Reference>
+                <Assembly>System.Windows.Forms</Assembly>
+                <URL>http://www.microsoft.com</URL>
+            </Reference>
+        </References>
+
+    <ProjectItem ReplaceParameters="true" SubType="Form">AboutBox.vb</ProjectItem>
+    <ProjectItem ReplaceParameters="true">AboutBox.Designer.vb</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$.resx" ReplaceParameters="false">AboutBox.resx</ProjectItem>
+
+    <CustomParameters>
+        <CustomParameter _locID="$IT_AB_VB_Loc_ProdName$" Name="$IT_AB_VB_Loc_ProdName$" Value="Имя продукта"/>
+        <CustomParameter _locID="$IT_AB_VB_Loc_Version$" Name="$IT_AB_VB_Loc_Version$" Value="Версия"/>
+        <CustomParameter _locID="$IT_AB_VB_Loc_Copyright$" Name="$IT_AB_VB_Loc_Copyright$" Value="Авторские права"/>
+        <CustomParameter _locID="$IT_AB_VB_Loc_CompName$" Name="$IT_AB_VB_Loc_CompName$" Value="Название организации"/>
+        <CustomParameter _locID="$IT_AB_VB_Loc_Descript$" Name="$IT_AB_VB_Loc_Descript$" Value="Описание:"/>
+        <CustomParameter _locID="$IT_AB_VB_Loc_FullDescript$" Name="$IT_AB_VB_Loc_FullDescript$" Value="(Во время выполнения текст подписи будет заменен информацией о сборке приложения."/>
+        <CustomParameter _locID="$IT_AB_VB_Loc_FullDescript2$" Name="$IT_AB_VB_Loc_FullDescript2$" Value="Настроить эту информацию можно в области &quot;Приложение&quot; конструктора проектов.)"/>
+        <CustomParameter _locID="$IT_AB_VB_Loc_OK$" Name="$IT_AB_VB_Loc_OK$" Value="&amp;ОК"/>
+        <CustomParameter _locID="$IT_AB_VB_Loc_About$" Name="$IT_AB_VB_Loc_About$" Value="О программе"/>
+        <CustomParameter _locID="$IT_AB_VB_Loc_Version2$" Name="$IT_AB_VB_Loc_Version2$" Value="Версия"/>
+    </CustomParameters>
+  </TemplateContent>
+</VSTemplate>

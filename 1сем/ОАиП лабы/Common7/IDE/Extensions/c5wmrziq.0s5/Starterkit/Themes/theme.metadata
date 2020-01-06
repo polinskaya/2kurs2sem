@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <array>
+    <dict>
+      <key>id</key>
+      <string>starterkit-vs-theme-dark</string>
+      <key>label</key>
+      <string>Dark</string>
+      <key>file</key>
+      <string>vs-dark.tmTheme</string>
+      <key>vs-themes</key>
+      <string>dark</string>
+      <key>default</key>
+      <string>dark</string>
+    </dict>
+    <dict>
+      <key>id</key>
+      <string>starterkit-vs-theme-light</string>
+      <key>label</key>
+      <string>Light</string>
+      <key>file</key>
+      <string>vs-light.tmTheme</string>
+      <key>vs-themes</key>
+      <string>light</string>
+      <key>default</key>
+      <string>light</string>
+    </dict>
+    <dict>
+      <key>id</key>
+      <string>starterkit-vs-theme-blue</string>
+      <key>label</key>
+      <string>Blue</string>
+      <key>file</key>
+      <string>vs-light.tmTheme</string>
+      <key>vs-themes</key>
+      <string>blue</string>
+      <key>default</key>
+      <string>blue</string>
+    </dict>
+    <dict>
+      <key>id</key>
+      <string>starterkit-vs-theme-hcblack</string>
+      <key>label</key>
+      <string>High Contrast Black</string>
+      <key>file</key>
+      <string>vs-hcdark.tmTheme</string>
+      <key>vs-themes</key>
+      <string>High Contrast</string>
+      <key>default</key>
+      <string>High Contrast</string>
+    </dict>
+  </array>
+</plist>

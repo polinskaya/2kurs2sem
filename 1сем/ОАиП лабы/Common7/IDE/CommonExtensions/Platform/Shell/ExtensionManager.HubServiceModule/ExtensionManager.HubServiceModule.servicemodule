@@ -1,0 +1,9 @@
+{
+    "Name":"Microsoft.VisualStudio.ExtensionManager.HubServiceModule",
+    "Services":
+    {
+        "ExtensionManagerService":"api"
+    },
+    "OwinStartupAssemblyName":"Microsoft.VisualStudio.ExtensionManager.HubServiceModule",
+    "OwinStartupClassName":"Microsoft.VisualStudio.ExtensionManager.HubServiceModule.Startup"
+}

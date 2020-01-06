@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Microsoft Office 365 API Tools</LocalizedName>
+  <LocalizedDescription>Integrate your applications with Office 365 services such as mail, calendar, contacts, files and more. This extension will help register your application to consume Office 365 APIs, and will add the necessary NuGet libraries to get you up and running in no time.</LocalizedDescription>
+</VsixLanguagePack>
+

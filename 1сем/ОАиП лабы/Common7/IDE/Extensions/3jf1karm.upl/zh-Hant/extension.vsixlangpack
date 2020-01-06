@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Microsoft Office 365 API 工具</LocalizedName>
+  <LocalizedDescription>將您的應用程式與 Office 365 服務整合，如郵件、行事曆、聯絡人、檔案及更多。這個擴充可協助您登錄您的應用程式以取用 Office 365 API，並且會加入所需的 NuGet 程式庫，讓您做好準備，並立即執行作業。</LocalizedDescription>
+</VsixLanguagePack>

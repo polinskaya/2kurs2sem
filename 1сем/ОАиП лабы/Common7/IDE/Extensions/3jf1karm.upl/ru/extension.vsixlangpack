@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Средства API Microsoft Office 365</LocalizedName>
+  <LocalizedDescription>Интегрируйте ваши приложения с различными службами Office 365, включая электронную почту, календарь, контакты, работу с файлами и прочие. Данное расширение поможет вам зарегистрировать приложение и добавить необходимые библиотеки NuGet, чтобы незамедлительно приступить к работе с API Office 365.</LocalizedDescription>
+</VsixLanguagePack>

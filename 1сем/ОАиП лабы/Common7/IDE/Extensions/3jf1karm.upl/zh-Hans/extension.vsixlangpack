@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Microsoft Office 365 API 工具</LocalizedName>
+  <LocalizedDescription>用 Office 365 服务（例如，邮件、日历、联系人、文件等）集成你的应用程序。此扩展有助于你注册应用程序以使用 Office 365 API，并将添加所需的 NuGet 库供你随时启动和运行。</LocalizedDescription>
+</VsixLanguagePack>

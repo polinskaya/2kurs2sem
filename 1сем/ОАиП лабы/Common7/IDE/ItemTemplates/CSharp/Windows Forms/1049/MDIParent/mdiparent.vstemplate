@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="2426"/>
+    <Description Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="2427"/>
+    <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4591"/>
+    <TemplateID>Microsoft.CSharp.MDIParent</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MDIParent.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+		<References>
+			<Reference>
+				<Assembly>System</Assembly>
+			</Reference>
+			<Reference>
+				<Assembly>System.Data</Assembly>
+			</Reference>
+			<Reference>
+				<Assembly>System.Drawing</Assembly>
+			</Reference>
+			<Reference>
+				<Assembly>System.Windows.Forms</Assembly>
+			</Reference>
+			<Reference>
+				<Assembly>System.Xml</Assembly>
+			</Reference>
+		</References>
+
+
+    <ProjectItem ReplaceParameters="true" SubType="Form">MDIParent.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true">MDIParent.Designer.cs</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$.resx">MDIParent.resx</ProjectItem>
+
+
+    <CustomParameters>
+        <CustomParameter _locID="$IT_MD_CS_Loc_1$" Name="$IT_MD_CS_Loc_1$" Value="Окно "/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_2$" Name="$IT_MD_CS_Loc_2$" Value="Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_3$" Name="$IT_MD_CS_Loc_3$" Value="Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_4$" Name="$IT_MD_CS_Loc_4$" Value="&amp;Файл"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_5$" Name="$IT_MD_CS_Loc_5$" Value="&amp;Создать"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_6$" Name="$IT_MD_CS_Loc_6$" Value="&amp;Открыть"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_7$" Name="$IT_MD_CS_Loc_7$" Value="&amp;Сохранить"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_8$" Name="$IT_MD_CS_Loc_8$" Value="Сохранить &amp;как"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_9$" Name="$IT_MD_CS_Loc_9$" Value="&amp;Печать"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_10$" Name="$IT_MD_CS_Loc_10$" Value="Предварительный прос&amp;мотр"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_11$" Name="$IT_MD_CS_Loc_11$" Value="Настройка печати"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_12$" Name="$IT_MD_CS_Loc_12$" Value="В&amp;ыход"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_13$" Name="$IT_MD_CS_Loc_13$" Value="&amp;Правка"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_14$" Name="$IT_MD_CS_Loc_14$" Value="&amp;Отменить"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_15$" Name="$IT_MD_CS_Loc_15$" Value="&amp;Вернуть"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_16$" Name="$IT_MD_CS_Loc_16$" Value="&amp;Вырезать"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_17$" Name="$IT_MD_CS_Loc_17$" Value="&amp;Копировать"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_18$" Name="$IT_MD_CS_Loc_18$" Value="&amp;Вставить"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_19$" Name="$IT_MD_CS_Loc_19$" Value="Выделить &amp;все"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_20$" Name="$IT_MD_CS_Loc_20$" Value="&amp;Вид"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_21$" Name="$IT_MD_CS_Loc_21$" Value="&amp;Панель инструментов"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_22$" Name="$IT_MD_CS_Loc_22$" Value="&amp;Строка состояния"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_23$" Name="$IT_MD_CS_Loc_23$" Value="С&amp;ервис"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_24$" Name="$IT_MD_CS_Loc_24$" Value="&amp;Параметры"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_25$" Name="$IT_MD_CS_Loc_25$" Value="&amp;Окна"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_26$" Name="$IT_MD_CS_Loc_26$" Value="&amp;Новое окно"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_27$" Name="$IT_MD_CS_Loc_27$" Value="&amp;Каскадом"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_28$" Name="$IT_MD_CS_Loc_28$" Value="С&amp;лева направо"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_29$" Name="$IT_MD_CS_Loc_29$" Value="С&amp;верху вниз"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_30$" Name="$IT_MD_CS_Loc_30$" Value="&amp;Закрыть все"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_31$" Name="$IT_MD_CS_Loc_31$" Value="&amp;Упорядочить значки"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_32$" Name="$IT_MD_CS_Loc_32$" Value="&amp;Справка"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_33$" Name="$IT_MD_CS_Loc_33$" Value="Содер&amp;жание"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_34$" Name="$IT_MD_CS_Loc_34$" Value="&amp;Указатель"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_35$" Name="$IT_MD_CS_Loc_35$" Value="&amp;Поиск"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_36$" Name="$IT_MD_CS_Loc_36$" Value="&amp;О программе ..."/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_37$" Name="$IT_MD_CS_Loc_37$" Value="Создать"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_38$" Name="$IT_MD_CS_Loc_38$" Value="Открыть"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_39$" Name="$IT_MD_CS_Loc_39$" Value="Сохранить"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_40$" Name="$IT_MD_CS_Loc_40$" Value="Печать"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_41$" Name="$IT_MD_CS_Loc_41$" Value="Предварительный просмотр"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_42$" Name="$IT_MD_CS_Loc_42$" Value="Справка"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_43$" Name="$IT_MD_CS_Loc_43$" Value="Состояние"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_44$" Name="$IT_MD_CS_Loc_44$" Value="ToolStrip"/>
+        <CustomParameter _locID="$IT_MD_CS_Loc_45$" Name="$IT_MD_CS_Loc_45$" Value="StatusStrip"/>        
+    </CustomParameters>
+
+  </TemplateContent>
+
+</VSTemplate>

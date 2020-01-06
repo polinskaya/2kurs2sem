@@ -1,0 +1,15 @@
+[$RootKey$\RuntimeConfiguration\dependentAssembly\bindingRedirection\{EBF137BA-7E71-2C9E-266B-17B44561040B}]
+"name"="Microsoft.VisualStudio.CSharp.Repl"
+"publicKeyToken"="31BF3856AD364E35"
+"culture"="neutral"
+"oldVersion"="0.7.0.0-1.3.0.0"
+"newVersion"="1.3.1.0"
+[$RootKey$\RuntimeConfiguration\dependentAssembly\bindingRedirection\{EBF137BA-7E71-2C9E-266B-17B44561040B}]
+[$RootKey$\RuntimeConfiguration\dependentAssembly\bindingRedirection\{4C87ADEC-05AD-81B3-E4D4-8D4993C28616}]
+"name"="Microsoft.VisualStudio.VisualBasic.Repl"
+"publicKeyToken"="31BF3856AD364E35"
+"culture"="neutral"
+"oldVersion"="0.7.0.0-1.3.0.0"
+"newVersion"="1.3.1.0"
+[$RootKey$\RuntimeConfiguration\dependentAssembly\bindingRedirection\{4C87ADEC-05AD-81B3-E4D4-8D4993C28616}]
+

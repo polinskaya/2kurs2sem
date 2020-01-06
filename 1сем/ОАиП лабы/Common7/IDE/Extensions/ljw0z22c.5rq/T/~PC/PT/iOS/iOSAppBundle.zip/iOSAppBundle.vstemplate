@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Build native iOS apps in C#</Name>
+    <Description>Write fully native iPhone and iPad apps in C#, with the ability to share code with Android apps and other .NET projects.</Description>
+    <Icon>iOSApp.ico</Icon> 
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>C12FB30D-7123-4D6B-A0C9-CC3260585055</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Xamarin</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="false" OpenInEditor="true">GetXamarin.xambe</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

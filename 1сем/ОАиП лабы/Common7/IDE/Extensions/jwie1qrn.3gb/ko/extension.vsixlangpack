@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Microsoft Azure 모바일 서비스 연결된 서비스</LocalizedName>
+  <LocalizedDescription>개발자가 단계별 안내를 통해 손쉽게 계정을 만들고 Azure 모바일 서비스에 연결할 수 있도록 해 줍니다.</LocalizedDescription>
+  <MoreInfoUrl>http://go.microsoft.com/fwlink/?LinkId=534856</MoreInfoUrl>
+</VsixLanguagePack>

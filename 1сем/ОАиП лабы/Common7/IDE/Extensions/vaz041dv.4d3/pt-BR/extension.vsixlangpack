@@ -1,0 +1,7 @@
+<PackageLanguagePackManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <DisplayName xml:space="preserve">Ferramentas de Análise para Desenvolvedor</DisplayName>
+    <Description xml:space="preserve">Ganhe visibilidade para o seu aplicativo usando o Application Insights e o HockeyApp diretamente no Visual Studio.</Description>
+    <License>EULA.rtf</License>
+  </Metadata>
+</PackageLanguagePackManifest>

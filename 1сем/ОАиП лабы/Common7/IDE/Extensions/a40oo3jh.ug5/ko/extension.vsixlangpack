@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Microsoft Office 365 API 도구</LocalizedName>
+  <LocalizedDescription>메일, 일정, 연락처, 파일 등의 Office 365 서비스로 응용 프로그램을 통합하세요. 이 확장은 응용 프로그램을 등록하여 Office 365 API를 사용할 수 있도록 하고, 필요한 NuGet 라이브러리를 추가하여 즉시 시작 및 실행합니다.</LocalizedDescription>
+</VsixLanguagePack>
